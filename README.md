@@ -13,6 +13,11 @@ streamlit run notion-md-exporter.py
 3. 安装python3.7后再配置项目
 
 
+##### notion笔记处理方法
+1. 先分好专题（js/html/vue/...）
+2. 每个专题下筛选10篇文章(至少5篇，每篇不能用引用的方法，要拷贝)
+3. 在notion整理好再导出（用notion原生的方法导出）
+
 ## Introduction
 
 This web-based app can help you to batch export notion pages to Markdown format correctly. 
