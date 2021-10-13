@@ -1,3 +1,18 @@
+
+## ⚠️ 注意1：项目有bug，需要修改notion-py/notion/store.py的limit:100才能使用
+> 参考：https://github.com/jamalex/notion-py/issues/292
+
+## ⚠️ 注意2：项目运行，不用运行setup.sh，装包后运行以下即可
+```zsh
+streamlit run notion-md-exporter.py
+```
+
+## ⚠️ 注意3：streamlit 依赖python3.7, 记得在pycharm配置好开发环境
+1. pycharm会自动提示创建新环境运行项目
+2. 如果没有提示，在finder中删除.venv文件夹即可
+3. 安装python3.7后再配置项目
+
+
 ## Introduction
 
 This web-based app can help you to batch export notion pages to Markdown format correctly. 
